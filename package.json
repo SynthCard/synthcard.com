@@ -1,7 +1,7 @@
 {
-  "name": "showcase-hugo-theme",
+  "name": "synthcard.com",
   "version": "1.3.0",
-  "description": "Showcase is a minimal, single page theme for Hugo",
+  "description": "The offical website for the synthcard project",
   "scripts": {
     "start": "hugo server --disableFastRender",
     "start-examplesite": "hugo server -s exampleSite --themesDir=../.. --disableFastRender",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apvarun/showcase-hugo-theme.git"
+    "url": "https://github.com/SynthCard/synthcard.com.git"
   },
   "keywords": [
     "hugo",
@@ -18,12 +18,12 @@
     "minimal",
     "one-page"
   ],
-  "author": "Varun A P",
+  "author": "Benjie Jiao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/apvarun/showcase-hugo-theme/issues"
+    "url": "https://github.com/SynthCard/synthcard.com/issues"
   },
-  "homepage": "https://github.com/apvarun/showcase-hugo-theme#readme",
+  "homepage": "https://synthcard.com/",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.3.1",
