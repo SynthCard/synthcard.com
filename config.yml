@@ -1,0 +1,10 @@
+baseURL: 'https://synthcard.com/'
+languageCode: en-us
+title: synthcard.com
+paginate: 1000
+theme: showcase
+
+params:
+  author: "Benjie Jiao"
+  description: "The official website for the SynthCard project"
+  message: "The SynthCard project is a collection of business-card sized synthesizer modules made by members of the SynthDIY community."

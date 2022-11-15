@@ -1,2 +1,2 @@
-# SynthCard.com
-The official website for the synthcard project.
+# synthcard.com
+The offical website for the synthcard project
