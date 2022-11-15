@@ -18,3 +18,7 @@ menu:
       url: "https://github.com/SynthCard/synthcard.com/issues"
     - name: "Specifications"
       url: "https://github.com/SynthCard/synthcard.com"
+
+social:
+  facebook: "https://facebook.com"
+  instagram: "https://instagram.com"
