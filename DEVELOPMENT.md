@@ -1,7 +1,15 @@
 # Developer Guide
 
 ## Contribute
-I used [Hugo](https://gohugo.io/) do develop this site.
+I used [Hugo](https://gohugo.io/) do develop this site. The main theme used is [showcase](https://themes.gohugo.io/themes/showcase-hugo-theme/).
+
+Add new projects under `content/projects`. Override the theme's templates under `/layouts/`.
+
+This will start a new Hugo server at `:1313` including drafts.
+
+```
+hugo serve -D
+```
 
 
 ## Deploy
