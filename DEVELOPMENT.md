@@ -1,7 +1,7 @@
 # Developer Guide
 
 ## Contribute
-I used [Hugo](https://gohugo.io/) do develop this site. The main theme used is [showcase](https://themes.gohugo.io/themes/showcase-hugo-theme/).
+The site is built using [Hugo](https://gohugo.io/). The main theme used is [showcase](https://themes.gohugo.io/themes/showcase-hugo-theme/).
 
 Add new projects under `content/projects`. Override the theme's templates under `/layouts/`.
 
