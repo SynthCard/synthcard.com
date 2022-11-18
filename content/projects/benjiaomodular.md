@@ -4,4 +4,5 @@ date: 2022-11-15
 subtitle: An Atari Punk Console-based Oscillator
 link: https://benjiaomodular.com
 image: projects/benjiaomodular.jpg
+type: project
 ---

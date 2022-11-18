@@ -16,11 +16,19 @@ SynthCards must be standard business card sized 3.5" x 2.0" or 8.9 x 5.1cm. Card
 ![Dimensions](synthcard-dimensions.png)
 
 # Power
-Power input for SynthCards should be between 5-9V but should be regulated down to 5V. 5V power and ground outputs should be available in the form of 2.54-pitch pin connectors to allow chaining of multiple boards together.
+Power input for SynthCards should be between 5-9V.
+
+Power and ground outputs should be available in the form of 2.54-pitch pin connectors to allow chaining of multiple boards together. This will allow people to chain multiple SynthCards together.
+
+Make sure to clearly label the voltages used by your card!
 
 
 # Connectors
 
 Power connections should be done using 2.54-pitch pin headers. An extra pair of power connectors should be available to allow chaining of multiple cards together.
 
-Audio and CV connections should be available through 2.54-pitch pins. SynthCards should be patchable using Dupont connectors. The addition of 3.5mm jacks is optional to allow operability with standard Eurorack systems.
+Audio and CV connections should be available through 2.54-pitch pins. SynthCards should be patchable using Dupont connectors.
+
+The addition of 3.5mm jacks is optional to allow operability with standard Eurorack systems. 2.54-pitch pins should still be available regardles of having 3.5mm jacks.
+
+The builder will have the freedom to use either pin-headers or pin-sockets on the connectors.
