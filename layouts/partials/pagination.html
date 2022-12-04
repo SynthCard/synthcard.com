@@ -1,7 +1,7 @@
 {{ $pagelist := $.Scratch.Get "pages" }}
 {{ if $pagelist }}
 <div>
-  {{ $pages := where $pagelist "Kind" "page" }}
+  {{ $pages := where $pagelist "Type" "project" }}
 
   {{ $paginator := .Paginate (where $pages ".Params.exclude" "!=" "true") .Site.Params.paginate }}
   <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
