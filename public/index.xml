@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The SynthCard Project</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on The SynthCard Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CircularTronic</title>
+      <link>http://localhost:1313/projects/circulartronic/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/circulartronic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adam Wonak</title>
+      <link>http://localhost:1313/projects/awonak/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/awonak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Juanito Moore</title>
+      <link>http://localhost:1313/projects/juanitohm/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/juanitohm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Karltron Synthesizers</title>
+      <link>http://localhost:1313/projects/karltron/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/karltron/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tyler Klein</title>
+      <link>http://localhost:1313/projects/tylerklein/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/tylerklein/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>benjiaomodular</title>
+      <link>http://localhost:1313/projects/benjiaomodular/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/benjiaomodular/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Guidelines for SynthCard Design</title>
+      <link>http://localhost:1313/specs/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/specs/</guid>
+      <description>NOTICE: This is still a working document. If you&amp;rsquo;d like to contribute to the development of this document, let Benjie know through Instagram @benjiaomodular or through the project&amp;rsquo;s Github.&#xA;This document serves as a guide for everyone making SynthCards. The spirit of this document is to allow SynthCards designed by different makers to work with each other.&#xA;Dimensions SynthCards must be standard business card sized 3.5&amp;quot; x 2.0&amp;quot; or 8.9 x 5.</description>
+    </item>
+  </channel>
+</rss>

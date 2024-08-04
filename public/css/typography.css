@@ -1,0 +1,32 @@
+.article p {
+  margin-bottom: 1.4rem;
+
+}
+
+.article a{
+  color: #4351a8;
+}
+
+.article h1 {
+  margin-top: 2.4rem;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+}
+
+.article h2 {
+  margin-top: 1.4rem;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.article h3 {
+  margin-top: 1.4rem;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.article p > img {
+  margin-top: 1.4rem;
+  width: 100%;
+  max-width:  800px;
+}
