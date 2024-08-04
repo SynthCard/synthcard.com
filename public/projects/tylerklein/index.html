@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="dark:bg-gray-900"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="author" content="Benjie Jiao" />
+  
+  
+  <meta
+    name="description"
+    content="The official website for the SynthCard project"
+  />
+  
+  <title>The SynthCard Project</title>
+  
+  
+
+  
+    <link rel="stylesheet" href="/css/main.css"/>
+  
+
+  <style>
+    @font-face {
+      font-family: "Bree Serif";
+      src: url("./BreeSerif-Regular.ttf") format("truetype");
+    }
+    .font-bree {
+      font-family: "Bree Serif", serif;
+    }
+    .hide {
+      display: none;
+    }
+    .active {
+      background-color: #4299e1;
+      color: white;
+    }
+    .active:hover {
+      color: white;
+    }
+    a.card h2 {
+      -webkit-text-stroke-width: 1px; 
+      -webkit-text-stroke-color: black;
+    }
+  </style>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/typography.css">
+</head>
+<body class="dark:bg-gray-900 min-h-screen"><header class="text-gray-700 body-font sticky top-0 z-10 bg-white dark:bg-gray-900 dark:text-white">
+  <div
+    class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+  >
+    <a
+      class="flex title-font font-medium items-center text-gray-900 dark:text-white mb-4 md:mb-0"
+      href="http://localhost:1313/"
+    ><span class="ml-3 text-xl">The SynthCard Project</span></a>
+    <nav
+      class="md:ml-auto flex flex-wrap items-center text-base justify-center dark:text-white "
+    >
+      
+      
+      <a
+      href="/"
+      class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+      >Home</a>
+      
+      <a
+      href="https://github.com/SynthCard/synthcard.com/issues"
+      class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+      >Contribute</a>
+      
+      <a
+      href="/specs"
+      class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+      >Specifications</a>
+      
+      
+    </nav>
+  </div>
+</header>
+<div id="content">
+
+<section class="text-gray-700 body-font dark:text-white">
+  <div class="container px-5 py-8 mx-auto">
+    <h1 class="text-2xl font-bold my-4">Tyler Klein</h1>
+    <div>
+      
+    </div>
+  </div>
+</section>
+
+
+        </div><footer class="text-gray-700 body-font">
+  <div
+    class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+  >
+    <p
+      class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-1 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+    >
+      <a href="http://localhost:1313/">&copy; Benjie Jiao</a>
+    </p>
+    <span
+      class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+    >
+      
+      <a class="text-gray-500" href="https://facebook.com">
+        <svg
+          fill="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-5 h-5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+          ></path>
+        </svg>
+      </a>
+        
+      <a class="ml-3 text-gray-500" href="https://instagram.com">
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-5 h-5"
+          viewBox="0 0 24 24"
+        >
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path
+            d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+          ></path>
+        </svg>
+      </a>
+       
+    </span>
+  </div>
+</footer>
+
+
+<script>
+  const allTypes = ["all",  "projects",];
+  const filter = (event, type) => {
+    const isMultiPage = !!document.querySelector('nav.multipage');
+
+    if (isMultiPage) {
+      return;
+    }
+
+    const isActive = event.target.classList.contains("active");
+
+    showAll();
+    if (!isActive) {
+      hideAll();
+      event.target.classList.add("active");
+      if (type !== "other") {
+        document
+          .querySelectorAll(`.${type}`)
+          .forEach((item) => item.classList.remove("hide"));
+      } else {
+        document
+          .querySelectorAll(
+            `.card${specificTypes.map((type) => `:not(.${type})`).join("")}`
+          )
+          .forEach((item) => item.classList.remove("hide"));
+      }
+    }
+  };
+
+  const showAll = () => {
+    allTypes.forEach((type) => {
+      document
+        .querySelectorAll(`.${type}`)
+        .forEach((item) => item.classList.remove("hide"));
+      document
+        .querySelectorAll(`nav:not(.multipage) .filter-${type}`)
+        .forEach((filterItem) => filterItem.classList.remove("active"));
+    });
+  };
+
+  const hideAll = () => {
+    allTypes.forEach((type) => {
+      document
+        .querySelectorAll(`.container a.card`)
+        .forEach((item) => item.classList.add("hide"));
+    });
+  };
+
+  allTypes.forEach((type) => {
+    document
+      .querySelectorAll(`.filter-${type}`)
+      .forEach((filterItem) =>
+        filterItem.addEventListener("click", (event) => filter(event, type))
+      );
+  });
+
+  const showAllButton = document.querySelector(`.show-all`)
+  if(showAllButton) {
+    showAllButton.addEventListener("click", showAll);
+  }
+
+  
+</script>
+</body>
+</html>
